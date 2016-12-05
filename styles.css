@@ -1,3 +1,29 @@
-body{
-	background: blue;
+h1{
+	font-family: helvetica; 
+	border: solid;
+	border-color: orange;
+	border-width: 15px;
+	width: 350px;
+	padding: 10px;
+}
+#p3{
+	text-align: center;
+}
+.list1{
+	margin-left: 50px;
+	width: 150px;
+	background-image: url(http://www.powerpointhintergrund.com/uploads/orange-ppt-background-3.jpg)
+}
+a:link {
+	color: deeppink;
+}
+a:visited {
+	color: darkviolet;
+}
+
+
+@media screen and (max-width: 500px) {
+ .list1 {
+   margin-left: 0px;
+ }
 }
